@@ -1,0 +1,91 @@
+for x in range (11,122):
+	if x % 2 != 0:
+		print (x)
+
+for count in reversed(range(1,51)):
+	print (count)
+
+for count in reversed(range(20,81)):
+	if count % 2 == 0:
+		print (count, end = " ")
+
+sum = 0
+for num in range(0, n+1, 1):
+	sum = sum + num
+avg = sum/n
+
+sum = 0
+for i in range(1, n+1, distance):
+	sum += i
+  int input = 0
+
+while input > 100:
+	if input > 0:
+	print (number)
+sum = int()
+odd = int()
+
+int sumeven = 0
+int sumodd = 0
+while True:
+	num = int(input())
+	if num <=0:
+		break
+	elif num % 2 == 0:
+		sumeven += num
+	else:
+		sumodd += num
+	
+print (sumeven, sumodd)
+
+sumeven = int()
+sumodd = int()
+while True:
+	num = int(input())
+	if num <= 0:
+		break
+	elif num % 2 ==0:
+		sumeven += num
+	else:
+		sumodd += num
+print (sumeven, sumodd)
+
+
+number = int()
+cents = int()
+hours = int()
+total = int()
+
+number = input()
+for(int i=1, <=number, i++)
+	
+while True:
+	buying = input()
+	if buying == "0":
+		break
+	elif buying == "muffin":
+		if muffins > 0:
+			muffins -=1
+		else:
+			print("Out of stock")
+	elif buying == "cupcake":
+		if cupcakes > 0:
+			cupcakes -=1
+		else:
+			print("Out of stock")
+		
+print("muffins:", muffins,"cupcakes:",cupcakes)
+
+total = int()
+num = int()
+grade = str()
+avg = float()
+
+grade = input()
+
+while grade != "stop":
+	num += 1
+	total += int(grade)
+	avg = total/num
+	grade = input()
+print (avg)
