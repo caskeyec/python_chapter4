@@ -1,0 +1,49 @@
+#Here are some more blocks of code. Maybe Ill clean them up. They are in random order as I was just trying to build something dirty.
+
+#Repeat program. Asks user for a 1 or 0 and tests the inputs if they are correct.
+doAgain = ""
+    while (doAgain != "1") or (doAgain != "0"):
+        doAgain = input("Press 1 to do another study, 0 to exit program. ")
+        if doAgain in ["1", "0"]:
+        else:
+            print ("Invalid input- Press 1 to do another study, 0 to exit the program.")
+    if doAgain == "0":
+        break
+
+
+
+
+speed_limit = 55
+number_cars = 3
+speeds = [60,65,70]
+for i in range (number_cars):
+    speeds.append(int(input("Enter the speed of the car:")))
+  
+if (sum(speeds)/len(speeds) <= (speed_limit + 3) and sum(speeds)/len(speeds) >= (speed_limit - 3)):
+    threeMPH = "Yes"
+else:
+    threeMPH = "No"
+
+while True:
+   
+    try_again = input("Press 1 to try again, any other key to exit. ")
+    if try_again != "1" and try_again != "0":
+      print ("Invalid input. Please press 1 or 0")
+    elif try_again == "1":
+      continue
+    else:
+      break
+
+    doAgain = input("Press Y to try again, any other key to exit. ")
+    if doAgain == "Y" or doAgain =="y" :
+        continue
+    else:
+        break
+
+while True:
+   
+    doAgain = input("Press Y to try again, any other key to exit. ")
+    if doAgain == "Y" or doAgain =="y" :
+        continue
+    else:
+        break
